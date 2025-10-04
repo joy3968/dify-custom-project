@@ -1,0 +1,28 @@
+# Docker volumes - exclude data directories
+volumes/*/
+!volumes/.gitkeep
+
+# Environment variables - keep .env.example, exclude actual .env
+.env
+!.env.example
+
+# Docker related
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.sublime-*
