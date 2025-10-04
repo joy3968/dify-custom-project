@@ -185,8 +185,8 @@ importers:
         specifier: ^1.5.0
         version: 1.5.0
       katex:
-        specifier: ^0.16.21
-        version: 0.16.22
+        specifier: ^0.16.23
+        version: 0.16.23
       ky:
         specifier: ^1.7.2
         version: 1.8.2
@@ -6159,8 +6159,8 @@ packages:
     resolution: {integrity: sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==}
     engines: {node: '>=4.0'}
 
-  katex@0.16.22:
-    resolution: {integrity: sha512-XCHRdUw4lf3SKBaJe4EvgqIuWwkPSo9XoeO8GjQW94Bp7TWv9hNhzZjZ+OH9yf1UmLygb7DIT5GSFQiyt16zYg==}
+  katex@0.16.23:
+    resolution: {integrity: sha512-7VlC1hsEEolL9xNO05v9VjrvWZePkCVBJqj8ruICxYjZfHaHbaU53AlP+PODyFIXEnaEIEWi3wJy7FPZ95JAVg==}
     hasBin: true
 
   keyv@4.5.4:
@@ -15559,7 +15559,7 @@ snapshots:
       object.assign: '@nolyfill/object.assign@1.0.44'
       object.values: '@nolyfill/object.values@1.0.44'
 
-  katex@0.16.22:
+  katex@0.16.23:
     dependencies:
       commander: 8.3.0
 
@@ -16005,7 +16005,7 @@ snapshots:
       dagre-d3-es: 7.0.11
       dayjs: 1.11.13
       dompurify: 3.2.6
-      katex: 0.16.22
+      katex: 0.16.23
       khroma: 2.1.0
       lodash-es: 4.17.21
       marked: 16.2.1
@@ -16104,7 +16104,7 @@ snapshots:
     dependencies:
       '@types/katex': 0.16.7
       devlop: 1.1.0
-      katex: 0.16.22
+      katex: 0.16.23
       micromark-factory-space: 2.0.1
       micromark-util-character: 2.1.1
       micromark-util-symbol: 2.0.1
@@ -17368,7 +17368,7 @@ snapshots:
       '@types/katex': 0.16.7
       hast-util-from-html-isomorphic: 2.0.0
       hast-util-to-text: 4.0.2
-      katex: 0.16.22
+      katex: 0.16.23
       unist-util-visit-parents: 6.0.1
       vfile: 6.0.3
 
