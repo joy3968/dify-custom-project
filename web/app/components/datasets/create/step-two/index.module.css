@@ -154,12 +154,12 @@
 }
 
 .radioItem:hover .radio {
-  border-color: #155eef;
+  border-color: #e55a2b;
 }
 
 .radioItem.active {
   border-width: 1.5px;
-  border-color: #528BFF;
+  border-color: #ff8c5a;
   box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
 }
 

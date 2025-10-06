@@ -276,7 +276,7 @@ const FileUploader = ({
   }, [isValid, initialUpload])
 
   const { theme } = useTheme()
-  const chartColor = useMemo(() => theme === Theme.dark ? '#5289ff' : '#296dff', [theme])
+  const chartColor = useMemo(() => theme === Theme.dark ? '#ff8c5a' : '#ff6b35', [theme])
 
   useEffect(() => {
     dropRef.current?.addEventListener('dragenter', handleDragEnter)

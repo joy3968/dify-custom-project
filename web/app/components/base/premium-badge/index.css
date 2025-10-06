@@ -19,12 +19,12 @@
   }
 
   .premium-badge-blue {
-    @apply bg-util-colors-blue-blue-200;
-    background-image: linear-gradient(90deg, #5289ffe6 0%, #155aefe6 100%), linear-gradient(135deg, var(--color-premium-badge-border-highlight-color) 0%, #155aef 100%);
+    @apply bg-primary-200;
+    background-image: linear-gradient(90deg, #ff8c5ae6 0%, #e55a2be6 100%), linear-gradient(135deg, var(--color-premium-badge-border-highlight-color) 0%, #e55a2b 100%);
   }
   .premium-badge-blue.allowHover:hover {
-    @apply bg-util-colors-blue-blue-300;
-    background-image: linear-gradient(90deg, #296dffe6 0%, #004aebe6 100%), linear-gradient(135deg, var(--color-premium-badge-border-highlight-color) 0%, #00329e 100%);
+    @apply bg-primary-300;
+    background-image: linear-gradient(90deg, #ff6b35e6 0%, #cc4a1fe6 100%), linear-gradient(135deg, var(--color-premium-badge-border-highlight-color) 0%, #b33d15 100%);
   }
 
   .premium-badge-indigo {
